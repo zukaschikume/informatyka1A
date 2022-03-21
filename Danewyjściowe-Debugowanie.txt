@@ -1,0 +1,15 @@
+﻿„liczby pierwsze.exe” (Win32): załadowano „C:\Users\Activcom\Desktop\git\liczby pierwsze\x64\Debug\liczby pierwsze.exe”. Symbole zostały załadowane.
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\ntdll.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\kernel32.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\KernelBase.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\msvcp140d.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\vcruntime140_1d.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\vcruntime140d.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\ucrtbased.dll”. 
+Wątek 0x1460 zakończył działanie z kodem 0 (0x0).
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\kernel.appcore.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\msvcrt.dll”. 
+„liczby pierwsze.exe” (Win32): załadowano „C:\Windows\System32\rpcrt4.dll”. 
+Wątek 0x2e7c zakończył działanie z kodem 0 (0x0).
+Wątek 0x21f0 zakończył działanie z kodem 0 (0x0).
+Program „[13512] liczby pierwsze.exe” zakończył działanie z kodem 0 (0x0).

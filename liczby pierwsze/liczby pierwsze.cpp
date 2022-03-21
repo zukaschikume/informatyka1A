@@ -8,10 +8,11 @@ int main()
     int lp;
     int d;
     lp = 0;
-    bool flaga;
-    cout << "ile liczb pierwszych";
-    cin >> n;
     p = 2;
+    bool flaga;
+    cout << "Ile liczb pierwszych chcesz wyswietlic =";
+    cin >> n;
+    cout << "Liczby pierwsze:";
     for (lp = 0; lp < n;) {
         flaga = false;
         for (d = 2; d < p; d += 1) {
@@ -26,5 +27,6 @@ int main()
         }
         else { p += 1; }
     }
+  
 }
 
