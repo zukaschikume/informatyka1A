@@ -1,0 +1,4 @@
+﻿  szyfr ceazar 2.cpp
+C:\Users\Activcom\Desktop\git\informatyka1A\.git\szyfr ceazar 2\szyfr ceazar 2\szyfr ceazar 2.cpp(16,7): error C2601: "szyfruj": definicje funkcji lokalnych są niedozwolone
+C:\Users\Activcom\Desktop\git\informatyka1A\.git\szyfr ceazar 2\szyfr ceazar 2\szyfr ceazar 2.cpp(7): message : ten wiersz zawiera znak „{”, który nie został jeszcze dopasowany
+C:\Users\Activcom\Desktop\git\informatyka1A\.git\szyfr ceazar 2\szyfr ceazar 2\szyfr ceazar 2.cpp(18,1): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
