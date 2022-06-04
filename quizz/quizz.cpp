@@ -57,7 +57,7 @@ void display_random_question()
 				question("Gdzie mieszkal Jan Kochanowski", "warszawa", "police", "wieden", "czarno las", 'd');
 				break;
 			case 3:
-				question("Z czego zaslynol jan kochanowski ", "Z bycia pisarzem", "Z bycia politykiem", "Z bycia wojskowym", " Z bycia budowniczym", 'b');
+				question("Z czego zaslynol jan kochanowski ", "Z bycia pisarzem", "Z bycia politykiem", "Z bycia wojskowym", " Z bycia budowniczym", 'a');
 				break;
 			case 4:
 				question("5 lubie", "placki", "placki", "placki", "placki", 'b');
@@ -86,15 +86,15 @@ void display_random_question()
 void result()
 {
 	system("cls");
-	cout << "Total question = " << Q_NO - 1 << endl;
+	cout << "Razem pytania = " << Q_NO - 1 << endl;
 	cout << "poprawna odpowiedz = " << poprawne << endl;
 	cout << "niepoprawna odpowiedz = " << zle << endl;
 	if (poprawne > zle)
-		cout << "Result = PASS" << endl;
+		cout << "Result = udalo sie" << endl;
 	else if (zle > poprawne)
-		cout << "Result = FAIL" << endl;
+		cout << "Result = nie udalo sie " << endl;
 	else
-		cout << "Result = Tie" << endl;
+		cout << "Result = remis" << endl;
 }
 
 void question(string question, string a, string b, string c, string d, char correct_answer)
