@@ -1,0 +1,3 @@
+﻿  quizz.cpp
+C:\Users\Activcom\Desktop\git\informatyka1A\.git\quizz\quizz\quizz.cpp(32,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  quizz.vcxproj -> C:\Users\Activcom\Desktop\git\informatyka1A\.git\quizz\x64\Debug\quizz.exe
