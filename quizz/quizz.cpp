@@ -10,7 +10,7 @@ bool ask[10] = { true , true , true , true , true , true ,true ,true ,true ,true
 
 void display_random_question();
 void display();
-void question(string question , string a , string b , string c , string d , char correct_answer);
+void question(string question, string a , string b , string c , string d , char correct_answer);
 void result();
 
 int main()
@@ -48,7 +48,7 @@ void display_random_question()
 			switch (no)
 			{
 			case 0 :
-				question("Jak nazywala sie ukochana corka Jana Kochanowskiego", "Hania", "Urszula", "Dagmara", "Marcin", 'a');
+				question("Jak nazywala sie ukochana corka Jana Kochanowskiego", "Urszula", "Hania", "Dagmara", "Jula", 'a');
 				break;
 			case 1:
 				question("Ile tremów napisał Kochanowski ", "18", "19", "21", "12", 'b');
@@ -57,25 +57,25 @@ void display_random_question()
 				question("Gdzie mieszkal Jan Kochanowski", "warszawa", "police", "wieden", "czarno las", 'd');
 				break;
 			case 3:
-				question("Z czego zaslynol jan kochanowski ", "Z bycia pisarzem", "Z bycia politykiem", "Z bycia wojskowym", " Z bycia budowniczym", 'a');
+				question("Z czego zaslynol jan kochanowski ", "Z bycia pisarzem", "Z bycia politykiem", "Z bycia wojskowym", "Z bycia budowniczym", 'a');
 				break;
 			case 4:
-				question("5 lubie", "placki", "placki", "placki", "placki", 'b');
+				question("", "", "", "", "", 'b');
 				break;
 			case 5:
-				question("6 lubie", "placki", "placki", "placki", "placki", 'b');
+				question("Jaki herb miala rodzina Jana Kochanowskiego ", "herb Ogonczykowy", "herb Zukowy", "herb Gozdawy", "herb Korwinu", 'd');
 				break;
 			case 6:
-				question("7 lubie", "placki", "placki", "placki", "placki", 'b');
+				question("W jakim miescie zmarl Jan Kochanowski", "Lublin", "warszawa", "paryz", "krakow", 'a');
 				break;
 			case 7:
-				question("8 lubie", "placki", "placki", "placki", "placki", 'b');
+				question("Jak nazywala sie ksiazka Jana kochanowskiego ktora opowiadala o mitologi greckiej", "Odyseja", "Iliada", "Odprawa poslow greckich", "Homer", 'c');
 				break;
 			case 8:
-				question("9 lubie", "placki", "placki", "placki", "placki", 'b');
+				question("kiedy urodzil sie Jan Kochanowski ", "1531", "1540", "1530", "940", 'c');
 				break;
 			case 9:
-				question("10 lubie", "placki", "placki", "placki", "placki", 'b');
+				question("ile dzieci mial Jan Kochanowski", "2", "7", "5", "0", 'b');
 				break;
 			}
 		}
